@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(./fonts/raleway-v28-latin_cyrillic/raleway-v28-latin_cyrillic-regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+
+}
+
+header nav {
+    width: 90%;
+    margin: 0 auto;
+    height: 102px;
+}
+
+
+header nav img {
+    float: left;
+    margin-top: 5px;
+    width: 20%;
+}
+
+header nav ul {
+    width: 60%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    width: 18%;
+    box-sizing: border-box;
+    float: left;
+    height: 41px;
+    margin: 0 5px;
+    margin-top: 28px;
+}
+
+header nav ul li a {
+    width: 100%;
+    line-height: 35px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+header nav ul li span {
+    width: 100%;
+    border: 2px solid #4BA87D;
+    display: block;
+    vertical-align: bottom;
+}
+
+header nav ul li button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: "Raleway";
+    background-color: #4BA87D;
+    font-weight: 900;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: url("./images/BG\ stuff.png");
+    padding-top: 103px;
+}
+
+main .showcase {
+    width: 90%;
+    height: 383px;
+    margin: 0 auto;
+    background: url("./images/photo\ hero.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+main .showcase h1 {
+    margin: 22px 0;
+    width: 489px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 71px;
+    /* or 120% */
+
+
+    color: #000000;
+}
+
+main .showcase p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-size: 19px;
+    /* or 120% */
+    width: 489px;
+
+    color: #000000;
+}
+
+main .showcase .buttons {
+    margin: 35px 0;
+}
+
+main .showcase .buttons button {
+    width: 200px;
+    height: 65px;
+    background: #4BA87D;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    /* identical to box height, or 119% */
+
+    text-align: center;
+    letter-spacing: 1.05px;
+
+    color: #FFFFFF;
+    border: none;
+    box-sizing: border-box;
+}
+
+main .showcase .buttons button:nth-child(2) {
+    background: #FFFFFF;
+    border: 3px solid #4BA87D;
+    color: #4BA87D;
+}
