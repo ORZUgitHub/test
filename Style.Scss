@@ -1,0 +1,170 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.outside {
+     width: 100%;
+     height: 3.4vh;
+     background-color: gold;
+     display: flex;
+     align-items: center;
+
+     &>.container {
+          width: 60%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &>.left {
+               width: 100%;
+               height: 100%;
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+
+               &>p {
+                    font-size: 12px;
+
+                    &>a:hover {
+                         color: rgb(82, 68, 96);
+                    }
+
+                    &>a {
+                         color: dimgray;
+                         font-weight: 100;
+                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                         text-decoration: none;
+                    }
+               }
+
+          }
+
+          &>.center {
+               width: 70%;
+               height: 100%;
+               display: flex;
+               justify-content: space-around;
+          }
+
+          &>.right {
+               width: 30%;
+               height: 100%;
+               display: flex;
+               justify-content: space-evenly;
+               align-items: center;
+
+               &>select {
+                    border: none;
+                    font-size: 10px;
+                    color: dimgray;
+                    background-color: gold;
+
+
+                    &>option {
+                         border: none;
+                         transition: all 1s ease;
+                         font-size: 12px;
+                         background-color: white;
+                    }
+               }
+
+               &>p>a {
+                    color: dimgray;
+                    text-decoration: none;
+                    font-weight: 100;
+                    font-size: 10px;
+               }
+
+               &>h1>a:hover {
+                    color: rgb(82, 68, 96);
+                    text-decoration: underline;
+               }
+
+               &>h1 {
+                    font-size: 15px;
+               }
+
+          }
+     }
+}
+
+.big-container {
+     width: 60%;
+     height: 140px;
+     margin: 0 auto;
+
+     &>.header {
+          width: 100%;
+          height: auto;
+          margin-top: 1.6rem;
+
+          &>.section {
+               width: 100%;
+               height: auto;
+
+               &>.qidiruv-tizim {
+                    width: 100%;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    &>.img-div {
+                         width: 25%;
+                    }
+
+                    &>.forms-1 {
+                         width: 50%;
+                         border: 1px solid black;
+                         background-color:#F1F1F1;
+                         border-radius: 20px;
+                         display: flex;
+                         align-items: center;
+                         height: 46px;
+                         justify-content: center;
+                         border: none;
+
+                         &>input {
+                              width: 90%;
+                              background-color:  #F1F1F1;
+                              border: none;
+                              padding: 0.8rem 1rem;
+                              text-align: start;
+                              color: #000;
+                              font-size: 16px;
+
+                         }
+
+                         &>input:focus {
+                              outline: none;
+                         }
+                    }
+
+                    &>.like-div {
+                         width: 25%;
+                         display: flex;
+                         justify-content: space-evenly;
+                         align-items: center;
+
+                         &>p{
+                              
+                            &>a{
+                              text-decoration: none;
+                             
+                              &>i{
+                                   font-size: 20px;
+                              }
+                              &>strong{
+                                   color: rgba(103, 103, 103, 0.784);
+                                    font-weight: lighter;
+                              }
+                            }  
+                         }
+                    }
+               }
+          }
+     }
+}
